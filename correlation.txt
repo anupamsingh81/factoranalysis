@@ -1,0 +1,30 @@
+# Education
+
+Pearson's product-moment correlation
+
+data:  jhar$MeanScore and as.numeric(jhar$Education)
+t = 4.0678, df = 400, p-value = 5.718e-05
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.1035202 0.2914354
+sample estimates:
+      cor 
+0.1993094 
+
+
+
+# Income
+
+> cor.test(jhar$MeanScore,as.numeric(jhar$Income))
+
+	Pearson's product-moment correlation
+
+data:  jhar$MeanScore and as.numeric(jhar$Income)
+t = 3.8097, df = 400, p-value = 0.000161
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.0909777 0.2798062
+sample estimates:
+      cor 
+0.1871199 
+

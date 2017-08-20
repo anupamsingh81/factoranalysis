@@ -9,6 +9,7 @@ jhar$Nine = ifelse(jhar$Nine>5,5,jhar$Nine)
 # Looking again 
 str(jhar)
 # RowMean
+jhar= as.data.frame(jhar)
 jhar$MeanScore<-rowMeans(jhar[,7:29])
 
 summary(jhar$MeanScore)
